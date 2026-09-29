@@ -1,0 +1,10 @@
+{
+  "description": "Connect with Dr. Cell for fast, expert smartphone repair services. Get instant quotes, explore services, and find the nearest location with ease.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
