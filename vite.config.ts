@@ -12,9 +12,13 @@ export default defineConfig(({ mode }) => {
   const emitSourcemaps = mode === 'development'
 
   return {
+<<<<<<< HEAD
    base: process.env.FIGMA_PUBLIC_URL
   ? `${process.env.FIGMA_PUBLIC_URL}/`
   : '/Dr.-Cell/',
+=======
+    base: process.env.FIGMA_PUBLIC_URL ? `${process.env.FIGMA_PUBLIC_URL}/` : '/',
+>>>>>>> 47c8f1accccfb9f2c80864d10aead4f08994b068
     build: {
       sourcemap: emitSourcemaps ? 'inline' : false,
       minify: !emitSourcemaps,
