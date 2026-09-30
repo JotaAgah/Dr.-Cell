@@ -353,7 +353,7 @@ function Hero() {
               Solicitar Orçamento Rápido
             </a>
             <a
-              href="https://wa.me/5516992290475"
+              href="https://wa.me/5516993275806"
               className="transition-all flex items-center gap-2"
               style={{ color: '#fff', fontWeight: 600, fontSize: 15, padding: '14px 28px', borderRadius: 100, border: '1px solid rgba(255,255,255,0.2)', display: 'inline-flex' }}
               onMouseEnter={e => { e.currentTarget.style.borderColor = 'rgba(255,255,255,0.5)'; e.currentTarget.style.background = 'rgba(255,255,255,0.05)' }}
@@ -563,7 +563,7 @@ function QuoteForm() {
     const msg = encodeURIComponent(
       `Olá! Gostaria de um orçamento:\n\n📱 Marca: ${form.brand}\n🔧 Modelo: ${form.model}\n⚡ Defeito: ${form.defect}\n\nNome: ${form.name}\nWhatsApp: ${form.phone}`
     )
-    window.open(`https://wa.me/5516992290475?text=${msg}`, '_blank')
+    window.open(`https://wa.me/5516993275806?text=${msg}`, '_blank')
   }
 
   const inputStyle = {
@@ -703,7 +703,7 @@ function ContactAndFAQ() {
 
             <div className="flex flex-col gap-3">
               {[
-                { icon: <IconWhatsapp />, label: 'WhatsApp', value: '(11) 9 9999-0000', href: 'https://wa.me/5516992290475', accent: true },
+                { icon: <IconWhatsapp />, label: 'WhatsApp', value: '(11) 9 9999-0000', href: 'https://wa.me/5516993275806', accent: true },
                 { icon: <IconPhone />, label: 'Telefone', value: '(11) 3000-0000', href: 'tel:+551130000000' },
                 { icon: <IconMail />, label: 'E-mail', value: 'contato@drcell.com.br', href: 'mailto:contato@drcell.com.br' },
                 { icon: <IconInstagram />, label: 'Instagram', value: '@drcell.oficial', href: 'https://instagram.com' },
@@ -798,7 +798,7 @@ function Footer() {
           {/* Social */}
           <div className="flex items-center gap-3">
             {[
-              { icon: <IconWhatsapp />, href: 'https://wa.me/5516992290475', label: 'WhatsApp' },
+              { icon: <IconWhatsapp />, href: 'https://wa.me/5516993275806', label: 'WhatsApp' },
               { icon: <IconInstagram />, href: 'https://instagram.com', label: 'Instagram' },
             ].map(s => (
               <a
